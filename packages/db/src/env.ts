@@ -7,5 +7,5 @@ export const env = createEnv({
         DATABASE_URL: z.string().url(),
     },
     experimental__runtimeEnv: {},
-    emptyStringAsUndefined: true,
+    emptyStringAsUndefined: false,
 });
